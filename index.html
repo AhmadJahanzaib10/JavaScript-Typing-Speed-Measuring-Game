@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Typing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="title">Typing Speed Test</h2>
+        <div class="game-container">
+            <div class="col-1">
+                <div id="text-container">
+                    <p id="text">You Have To Write Text Displayed Here Below After Clicking Start.</p>
+                </div>
+                <textarea id="mytext" cols="80" rows="10" disabled></textarea>
+                <button id="start">Start</button>
+            </div>
+            <div class="col-2">
+                <div id="detail-container">
+                    <h3>Total Words : <span id="twords"></span></h3>
+                    <h3>Speed : <span id="wpm"></span></h3>
+                    <h3>Errors : <span id="errors"></span></h3>
+                    <h3>Time Taken: <span id="time"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
